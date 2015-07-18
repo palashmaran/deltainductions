@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1 align="Center"> Enter the height of bars </h1>
+	<h2 align="center"> Maximum Prompt are 10 (height less than or equal to zero neglected) <h2>
+</head>
+<body>
+
+<script>
+        function tmp_div(h)
+		{
+		   var divTag=document.createElement("canvas");
+		    divTag.id="myCanvas";
+			divTag.style.marginTop="6%"
+			divTag.width=1300;
+			divTag.height=h;
+		  	document.body.appendChild(divTag);
+			 c = document.getElementById("myCanvas");
+			 ctx = c.getContext("2d");
+						 
+			 ctx.moveTo(0,0);
+		     ctx.lineTo(0,h);
+		     ctx.lineTo(1300,h);
+		     ctx.stroke();
+             			 
+	  
+		}
+        function create_div(h)
+		{ 
+		   
+		    var divTag=document.createElement("canvas");
+		    divTag.id="myCanvas";
+			divTag.style.marginTop="6%"
+			divTag.width=1300;
+			divTag.height=h;
+			document.body.appendChild(divTag);
+			
+		  }
+       function empty_graph(h,ctx)
+	   { 
+	
+		ctx.moveTo(0,0);
+		ctx.lineTo(0,h);
+		ctx.lineTo(1300,h);
+		ctx.stroke();    
+	   }
+		 function create_bar(size,h,gap,ctx)
+		{  
+		  
+		  ctx.fillStyle ="#000080";
+		  ctx.fillRect(gap,h,20,-size);
+		  if(size>0)
+		   {
+		   ctx.font = "12px Arial";
+		   ctx.fillText(size,gap,h-size);
+		  }
+		  ctx.stroke();
+		} 
+		 function create()
+		 {    var size=[];
+		      var c,ctx;
+			  								 
+		   for (var i=0;i<10;i++)
+		     {  
+		       size[i]=prompt("Please enter height of bar","0");
+			     c = document.getElementById("myCanvas");
+			      c.remove();      
+		        size.sort(function(a,b) { return a-b});
+				var h=size[i]*1+100;
+				   if(size[i] >0)
+				    {
+					    if(c)
+					     c.remove();			  
+						 create_div(h);
+						 c = document.getElementById("myCanvas");
+						 ctx = c.getContext("2d");
+						 empty_graph(h,ctx);
+						 
+						 var gap=20;
+						 ctx.moveTo(20,h);
+						  for( var j=0;j<=i;j++)
+						   {
+						     if(size[j]>0)
+							  {
+							    create_bar(size[j],h,gap,ctx);
+							    gap=gap+30;
+							  }
+						   }
+						  
+			        }
+	         }
+		 }
+		    
+			tmp_div(150);
+</script>
+<p align="center">
+ <button type="button" style="margin-top:2%" value="ADD" onclick="create();" >Add</button> </p>
+</body>
+</html>

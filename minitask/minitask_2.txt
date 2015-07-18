@@ -1,0 +1,15 @@
+1.In first task i was getting for handling div,so i used table.
+New Concepts I learned:
+1.javascript Dom
+2.HTML tables ,div.
+3.Random functions.
+
+Experience with Mentor:
+                         He is very helpful ,he will clear all doubts .He will respond very fast.IRC Session is very informative.
+	  He cleared all mydoubts.
+Review:
+         I asked related to git installation.He helped in setup	git using ssh key;  
+Advanced :
+            Advanced is amazing ,we learning new things in every task,initially i was getting problem in js ,but now it is fine.		 
+						 
+						 

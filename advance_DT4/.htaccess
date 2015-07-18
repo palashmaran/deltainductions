@@ -1,0 +1,6 @@
+<ifModule mod_rewrite.c>
+Options +Multiviews
+
+RewriteCond %{THE_REQUEST} \ /+([^\?\ ]+)\.[a-z]+(\?|\ |$) [NC]
+RewriteRule ^ /%1 [L,R]
+</ifModule>

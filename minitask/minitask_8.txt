@@ -1,0 +1,87 @@
+Ans1 . A DP is an algorithmic technique which is usually based on a recurrent formula and one (or some) starting states. A sub-solution of the problem is constructed from previously found ones. DP solutions have a polynomial complexity which assures a much faster running time than other techniques like backtracking, brute-force etc.
+simple defination:
+Dynamic programming is an approach to solve particular problems  o(n),o(logn) times,like pascal triangle,fibonacci;
+dp can be implemented by two approach:
+ 1.) Top-Down : Start solving the given problem by breaking it down. If you see that the problem has been solved already, then just return the saved answer. If it has not been solved, solve it and save the answer. This is usually easy to think of and very intuitive. This is referred to as Memoization.
+2.) Bottom-Up : Analyze the problem and see the order in which the sub-problems are solved and start solving from the trivial subproblem, up towards the given problem. In this process, it is guaranteed that the subproblems are solved before solving the problem. This is referred to as Dynamic Programming.
+
+for ex: f(n)=f(n-1)+f(n-1);
+        using dp bottom up approach we consider array size[n+1];we now f[0]=0,f[1]=1 stored in array ,for f[2]=f[1]+f[0] f[2] stored in array; for f[3]=f[2]+f[1], f[3] stored  in array ,if we have result return the result else compute ,no need to compute from beginining like recursive approach 
+		in recursive approach we f[2] we calculate (f[1],f[0]) and for f[3] we use (f[1],f[0]) for f[2] and  (f[2],f[1],f[0]) ,you notice we computing again f[1],f[0] it is wasting computer resources,
+		but in dp we compute directly using previous state;
+
+ 
+ans 2.  Time complexity deals with finding out how the computational time of an algorithm changes with the change in size of the input. 
+ space complexity deals with finding out how much (extra)space would be required by the algorithm with change in the input size.
+ for ex: use bubble sort  to sort n elements 
+          for 1 element need n-1 comparision required in same way 2 element n-2 and so on
+		   so time complexity is o(n^2) ;
+		  but in comparsion we need extra space for swap the element in bubble sort we need one extra variable for swapping so space complexity o(1);
+
+Ans3. In binary search or binary search tree algo take o(logn) time complexity .
+      for example we array size n elements.
+       according to binary search we chk element is in mid position or not; if not we chk element is bigger than mid element so next we chk from mid+1 index to last index.this process goes 
+        first time : n/2 second time:n/4 third time : n/8 
+           n/2+n/4+n/8....=logn it a series of logn
+        same thing happening in binary search tree insertion or searching opeartion;
+Ans4. libcolumbus used by ubuntu 
+        vi editor use regex (regular expression)		
+		grep commnad uses regex;
+Ans 5. x86 means 32 bit computer and x64 means 64 bit 	computer system ,x86-32 bit  general purpose register 
+       and in x64 64 bit general purpose register . 
+	   in x86 system  maximun ram usage  is 3.2 gb which is not enough.
+	   In x64 system can use 8 gb ram 
+	   In 64bit system supports 32 bit application ,u will see folder x86 program files in c drive.
+	   64 bit is faster than 32 bit systems in multipurspose works.
+	   32 bit system can use maximum 2 cores but 64 bit can use more than two cores.
+
+Ans 6. #include<stdio.h>
+void multiply(int F[2][2],int M[2][2]);
+void power(int m[2][2],int n);
+int fib(int n);
+int main()
+{
+	int n;
+	printf("\n Enter value of n");
+	scanf("%d",&n);
+	printf("%d\n",fib(n));
+	
+	
+	return 0;
+	
+}
+ int fib(int n)
+ {
+ 	 if(n==0)
+ 	  return 0;
+ 	 int f[2][2]={{1,1},{1,0}}; 
+ 	  power(f,n-1);
+ 	  return f[0][0];
+ 	 
+ }
+void multiply(int F[2][2], int M[2][2])
+{
+  int x =  F[0][0]*M[0][0] + F[0][1]*M[1][0];
+  int y =  F[0][0]*M[0][1] + F[0][1]*M[1][1];
+  int z =  F[1][0]*M[0][0] + F[1][1]*M[1][0];
+  int w =  F[1][0]*M[0][1] + F[1][1]*M[1][1];
+ 
+  F[0][0] = x;
+  F[0][1] = y;
+  F[1][0] = z;
+  F[1][1] = w;
+} 
+void power(int m[2][2],int n)
+{
+	 if(n==0 || n==1)
+	   return ;
+	   int f[2][2]={{1,1},{1,0}};
+	   
+	  power(m,n/2); 
+	  multiply(m,m);
+	  if(n%2)
+	   multiply(m,f);
+}
+
+	 
+

@@ -1,0 +1,49 @@
+Q1.what is Web development?
+Ans. Web development is a broad term for the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network). Web development commonly refers, may include web design, web content development, client liaison, client-side/server-side scripting,web server and network security configuration, and e-commerce development.
+Q2.What is a browser?
+Ans. A web browser (commonly referred to as a browser) is a software application for retrieving, presenting and traversing information resources on the World Wide Web. An information resource is identified by a Uniform Resource Identifier (URI/URL) and may be a web page, image, video or other piece of content.[1] Hyperlinks present in resources enable users easily to navigate their browsers to related resources.
+Q3.How do browsers work?
+Ans.Browsers is a client side agent which serves request to user  ,It takes  request in search box as text ,url ;and it will reponse according to request.Browsers has engines which run html and css .shows display content.
+Q4. What is a server?
+Ans. A server is a running instance of an application (software) capable of accepting requests from the client and giving responses accordingly. Servers can run on any computer including dedicated computers, which individually are also often referred to as "the server".
+Typical computing servers are database server, file server, mail server, print server, web server, gaming server, and application server.
+Q5.How do servers work?
+Ans when a browser requests for something, say, http://www.geeksbix.com/, the browser sends the request to the server whose domain name is geeksbix.com and the server fetches the page ‘index’ and sends it to the browser. Request tool.It works on intranet or internet both.
+Q6.What is the role of CPU in running browser engines?
+Ans. CPU comes in to play when an instruction is given in the browser to request the server for a web page. It deals with the instruction transferring between various components. The CPU deals with the controlling and memory allocated to the whole browsing action.
+Q7.what is WWW?
+Ans . The World Wide Web (www, W3) is an information system of interlinked hypertext documents and other digital resources that are accessed via the Internet. It has become known simply as the Web. Hypertext documents are commonly called web pages, which are primarily text documents formatted and annotated with the Hypertext Markup Language (HTML).
+Q8.What is HTML?
+Ans. HyperText Markup Language, commonly referred to as HTML, is the standard markup language used to create web pages.[1] It is written in the form of HTML elements consisting of tags enclosed in angle brackets (like <html>).
+
+Q9.What is CSS?
+Ans. Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language.
+
+Q10.What is Javascript ?
+Ans It is a client side scripting language .It helps to create dynamic web pages on client side.
+Q11. What Is a domain ?
+Ans Domain is the url of a website .Owner of website purchased the domain and link is host ip with domain name.Whenever we put domain name in browser ,browser convert into ip and request to server.
+
+.
+
+Q12.what is Internet?
+Ans  The Internet is a global system of interconnected computer networks that use the standard Internet protocol suite (TCP/IP) to link several billion devices worldwide. It is a network of networks[.
+Q13.What is internet pack?
+Ans. It is a service provide by isp in exchange of money .In internet pack isp provide some limit like 2 gb ,184 mb etc. upto that data we can download or browse. Some isp are airtel ,vodaphone.
+Q14.What is web?
+Ans Network of networks
+Q15.What is url?
+Ans.Address which type in a search of browser to browse web content.url has two components first protocol http or https ,second resouces name ex github.com.
+Q16.What is uri?
+Ans It is used to identify  a name of resources.combination of url and urn is uri.
+Q17 what happens when you type into browsers address bar?
+Ans.Browser converts the request in machine readable form and request to  server and server reads the request and provide the data according to the request  .browsers convert data into human readable form and display in browser window.
+Q18.What is wifi?
+Ans It is wireless network ,which uses wlan. It allows users to connect users to network without any cables.
+Q19.Why most of the Url starts with http://?
+Ans. Hyper Text Transfer Protocol. It is the protocol identifier. HTTP is underlying protocol. Used by the World Wide Web. HTTP defines how messages are formatted and transmitted and what actions servers and browsers should take in response.
+Q20.What is https,ftp,SSl,tsl?
+Ans Https: Hyper Text Transfer Protocol Secure (HTTPS) is the secure version of HTTP, the protocol over which data is sent between your browser and the website that you are connected to. The 'S' at the end of HTTPS stands for 'Secure'. It means all communications between your browser and the website are encrypted. HTTPS is often used to protect highly confidential online transactions like online banking and online shopping order forms.
+ FTP: The File Transfer Protocol (FTP) is a standard network protocol used to transfer computer files from one host to another host over a TCP-based network, such as the Internet.
+ SSL: SSL stands for Secure Sockets Layer. It provides a secure connection between internet browsers and websites, allowing you to transmit private data online. Sites secured with SSL display a padlock in the browsers URL and possibly a green address bar if secured by an EV Certificate.
+Tsl: Transport Layer Security (TLS) is a protocol that ensures privacy between communicating applications and their users on the Internet. When a server and client communicate, TLS ensures that no third party may eavesdrop or tamper with any message. TLS is the successor to the Secure Sockets Layer (SSL).

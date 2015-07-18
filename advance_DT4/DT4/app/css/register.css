@@ -1,0 +1,110 @@
+            
+            
+            .reg_table
+			{ 
+			  height:50px;
+			 
+			}
+			
+			.reg_div
+			{
+			  
+	
+			  position:absolute;
+			  height:auto;
+			  width:25%;
+			  left:0%;
+			  right:0%;
+			  margin:0% auto;
+			  
+			  
+			}
+			
+			.reg_first
+			{
+			  		  
+			 
+			  
+			  height:auto;
+			  width:25%;
+			  left:48%;
+			  float:left;
+			  margin:0% auto;
+			  position:absolute;
+			}
+			.button_div
+			{
+			   
+			   top:118%;
+			  
+			   height:8%;
+			   width:8%;
+			   
+			}
+			.heading
+			{
+			  text-align:center;
+			   margin:0%;
+			}
+			 button	
+			 {
+			   top:130%;  
+			   width:30%;
+			   height:10%;
+			   position:absolute;
+			   border-radius:20px;
+			 }
+			.reg_second
+			{ 
+			 
+			  position:absolute;
+			  height:60%;
+			  width:70%;
+			  left:63%;
+			  float:left;
+			  margin:0% auto;
+			}
+		    body{
+			        background-color:#1C5380;
+					font-family:Nyala;
+                  }		
+
+             input[type="text"] {
+				  -webkit-border-radius: 16px;
+				  -moz-border-radius: 16px;
+				  border-radius: 16px;
+				  height:30px;
+				  padding-left:18px;
+			    }
+			input[type="file"] {
+			  -webkit-border-radius: 0px 10px 10px 0px ;
+			  -moz-border-radius: 0px 10px 10px 0px;
+			  border-radius: 0px 10px 10px 0px;
+             			  
+	
+			}	 
+			input[type="checkbox"] {
+			  
+               position:absolute;
+			   height:18px;
+               width: 18px;	
+			   left:-25%;
+			  
+			}	 
+				 
+             input[type="email"] {
+			  -webkit-border-radius: 16px;
+			  -moz-border-radius: 16px;
+			  border-radius: 16px;
+			  height:30px;
+			  width:auto;
+			  
+			}	
+             input[type="password"] {
+			  -webkit-border-radius: 16px;
+			  -moz-border-radius: 16px;
+			  border-radius: 16px;
+			  height:30px;
+			  padding-left:18px;
+			}			
+  

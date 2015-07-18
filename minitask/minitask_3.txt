@@ -1,0 +1,62 @@
+Q1.What is a Browser Console?Why is that designed ?
+Ans. The Browser Console is like the Web Console, but applied to the whole browser rather than a single content tab.
+      So it logs the same sorts of information as the Web Console - network requests, JavaScript, CSS, and security errors and warnings, and messages explicitly logged by JavaScript code. However, rather than logging this information for a single content tab, it logs information for all content tabs, for add-ons, and for the browser's own code.
+	  shortcut command to open browser console: press Ctrl+Shift+J (or Cmd+Shift+J on a Mac).
+	  
+Ans2.  var images=$$(‘img’);
+    for (var i=0;i>=images.length;i++) {
+    images[i].src=https://goo.gl/P0Xgv7”;
+    }
+$$(selector) is the command which returns an array of elements that match the specified selector. This is a shortcut for “document.querySelectorAll();” 
+Ans3.kdb: The kbd element is used to identify keystrokes that the user needs to make on his or her keyboard. These keystrokes could form a string of text, or they could reflect individual key presses that the user must complete (for example, pressing Enter or Backspace). It’s most likely to be found in online technical manuals or support sites. 
+marquee>:The HTML <marquee> tag is used for scrolling piece of text or image displayed either horizontally across or vertically down your web site page depending on the settings
+<blink>:The HTML Blink Element (<blink>) is a non-standard element causing the enclosed text to flash slowly.
+
+oneerror event: this event triggers when error occurs while loading page.
+
+Ans4. Id are unique:
+       1.Each element can have only one ID.
+       2.Each page can have only one element with that ID
+	   
+	  
+	   Classes are NOT unique
+
+		1.You can use the same class on multiple elements.
+		2.You can use multiple classes on the same element.
+			   
+Ans 5. 1.alert(''=='0') return false;
+       explanation:Both are string type but empty string is not equal non empty true so it returns false.
+	   2.alert(0=='0') return true;
+	    explanation:'0' is converted to number 0 so it returns true.
+	   3.alert(0=='') returns true;
+	      explanation: '' returns false and 0 means false so it is true;
+	
+Ans 6. In computer programming, a return statement causes execution to leave the current subroutine and resume at the point in the code immediately after where the subroutine was called, known as its return address. The return address is saved, usually on the process's call stack, as part of the operation of making the subroutine call. Return statements in many languages allow a function to specify a return value
+ to be passed back to the code that called the function.
+
+ Ans 7.Functional programming:In computer science, functional programming is a programming paradigm—a style of building the structure and    elements of computer programs—that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data
+     Functional programming save time and memory ,if make particular function for the view lines code ,if we want to use in many places.
+  In javascript we implement functional programming : for every particular kind of event ,like we invoke one function on onclick event and other on onload etc.
+  Benefits:
+  Easy debugging ,easy handling code ;
+  
+Ans 8. var x=5;
+       {
+	     var x=15;
+         }	   
+		 output is 15;
+		  javascript does not have a block scope. 
+          1.var x=5;
+           {
+	         var x=15;
+            }	   
+		2.var x=5;
+       
+	     var x=15;
+         	first and second both statement are equal   
+				  
+  In c,c++ they are a term block scope ,declaring a variable in  a block is restricted only in the block.
+Ans 9.  Because of cache ,when a webpage loads firsttime it takes time because its fetching records and data from the server.Cache stored  the copy of all  previous visited webpages ,For next time users request of visited pages ,so browser will load cache of stored webpage,that is the reason second webpages loads faster.		 
+Ans10. https://jsfiddle.net/palashmaran/3z3fwouz/1.
+ 
+	

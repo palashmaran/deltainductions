@@ -1,0 +1,26 @@
+Ans1.A server is a computer program that provides services to other computer programs (and their users) in the same or other computers.
+     The computer in which server is running is also called as server.
+	 
+Ans 2.A local host is a local hostname for computers.its ip is 127.0.0.1.In localhost you can access the services via loopback network interface.for ex if you type localhost in web browser it will display index page of web server .
+
+Ans 3.loopback is a communication channel with only one end-point.TCP/IP networks specially a loopback that allows client software to communicate with server software on the same computer ,users can specify an ip address ,usually 127.0.0.1 which will point back to computers TCP/IP network configuration that means if you write your system ip in browser then it will display localhost web server page.
+ 
+Ans 4. Reasons:
+      1. for handling number of different web servers running locally .And binding services  with each server.
+	  2.Manipulate people by sharing your host ip as loopback ip these ip only specific to local system .In other system using same ip u will get different services.
+	  3.permitting more locally running services than the 64k TCP would permit.
+Ans 5. xampp is a application software which will provide an interface like web server.You can server scripting languages like php using it.
+       Phymyadmin is GUI application for  handling databases of web applications.
+Ans 6. www is localhost (root) server directory in wamp web server.
+	   html is localhost (root) server directory in lamp web server
+	   htdocs is localhost (root) server directory in xampp web server
+
+Ans7.Server-side scripting is not visible because these scripts run first by web server then output will be displayed by browser.
+	   
+Ans8.In client-server programming model,a server is a program that awaits and fulfills request from client programs in the same or other        computers.A given application may function as a client with requests for services from other programs and also as a server of requests from 
+programs.	 
+	 
+  In web server , web client is the requesting program associated with the user.The web browser in your computer is a client that requests html
+  files from web server.
+
+  

@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="1000" height="1000" >
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+
+ function drawcircle(ctx,x,y)
+ {
+    ctx.beginPath();
+	ctx.arc(x,y,25,0,2*3.14);
+	ctx.fillStyle ="#FF0000";
+	ctx.fill();
+	ctx.stroke();
+
+ }
+ function moveleft(ctx,x,y)
+ {
+	ctx.moveTo(x-10,y+25);
+	ctx.lineTo(x-80,y+80);
+	ctx.lineWidth=2;
+	ctx.stroke();
+
+ }
+  function moveright(ctx,x,y)
+  {
+    
+	ctx.moveTo(x+10,y+25);
+	ctx.lineTo(x+70,y+80);
+	ctx.lineWidth=2;
+	ctx.stroke();
+
+  }
+    function create_tree()
+	{ 
+	    var c = document.getElementById("myCanvas");
+		var ctx = c.getContext("2d");
+		var rx=x=400,ry=y=50;
+		drawcircle(ctx,x,y);
+		   ctx.font="18pt Arial";
+		   ctx.fillStyle='blue';
+		   ctx.textBaseline='bottom';	
+		   ctx.fillText(25,385,60);
+		   ctx.stroke();
+	     moveleft(ctx,x-10,y-10);
+         moveright(ctx,x+5,y-10);
+         drawcircle(ctx,x-100,y+80);
+		 ctx.font="18pt Arial";
+		   ctx.fillStyle='blue';
+		   ctx.textBaseline='bottom';	
+		   ctx.fillText(25,290,140);
+		   ctx.stroke();
+		 drawcircle(ctx,x+100,y+80);
+		  ctx.font="18pt Arial";
+		   ctx.fillStyle='blue';		
+		   ctx.fillText(25,490,140);
+		   ctx.stroke();
+// first level		left side
+		 moveleft(ctx,290,120);
+		 drawcircle(ctx,230,210);
+		 ctx.font="18pt Arial";
+		   ctx.fillStyle='blue';
+		   ctx.textBaseline='bottom';	
+		   ctx.fillText(25,220,220);
+		   ctx.stroke();
+		 moveright(ctx,310,120);
+		 drawcircle(ctx,360,210);
+		 ctx.font="18pt Arial";
+		   ctx.fillStyle='blue';
+		   ctx.textBaseline='bottom';	
+		   ctx.fillText(25,350,220);
+		   ctx.stroke();
+		 // first level right side
+		 moveleft(ctx,490,120);
+		 drawcircle(ctx,430,210);
+		 ctx.font="18pt Arial";
+		   ctx.fillStyle='blue';
+		   ctx.textBaseline='bottom';	
+		   ctx.fillText(25,420,220);
+		   ctx.stroke();
+		 
+		 moveright(ctx,510,120);
+		 drawcircle(ctx,560,210);
+		 ctx.font="18pt Arial";
+		   ctx.fillStyle='blue';
+		   ctx.textBaseline='bottom';	
+		   ctx.fillText(25,550,220);
+		   ctx.stroke();
+		 
+		 
+		 // second level 
+		/*	 moveleft(ctx,240,200);
+			 drawcircle(ctx,180,270);
+			 moveright(ctx,220,200);
+			 drawcircle(ctx,260,270);
+			 
+		     moveleft(ctx,350,200);
+			 drawcircle(ctx,320,270);
+			 moveright(ctx,370,200);
+			 drawcircle(ctx,420,270);
+			*/
+			
+			
+		} 
+	create_tree();
+    /*drawcircle(ctx,x,y);
+	moveleft(ctx,x,y);
+	moveright(ctx,x,y);
+	drawcircle(ctx,160,130);
+	drawcircle(ctx,235,130); */
+</script> 
+
+</body>
+</html>
