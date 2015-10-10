@@ -1,0 +1,16 @@
+604FC1242556*     422 Sat Oct 10 10:45:59  recruitment@recruitment-PowerEdge-R420
+                                         205114025@nitt.edu
+                                         sdfdsf@recruitment-PowerEdge-R420
+
+45F9A12424A0      484 Sat Oct 10 08:00:01  recruitment@recruitment-PowerEdge-R420
+          (connect to smtp.gmail.com[74.125.68.109]:587: Connection timed out)
+                                         recruitment.nittbackup@gmail.com
+
+DF5DE1242510      720 Sat Oct 10 09:35:10  www-data@recruitment.nitt.edu
+(delivery temporarily suspended: connect to smtp.gmail.com[74.125.68.108]:587: Connection timed out)
+                                         sahu.deven@gmail.com
+
+62EE012424A3      723 Sat Oct 10 10:44:42  www-data@recruitment.nitt.edu
+          (connect to smtp.gmail.com[74.125.68.109]:587: Connection timed out)
+                                         allenalex88@gmail.com
+
